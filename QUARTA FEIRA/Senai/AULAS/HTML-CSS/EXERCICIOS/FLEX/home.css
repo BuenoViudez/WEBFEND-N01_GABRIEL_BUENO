@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    background-image: url(https://i.pinimg.com/originals/0f/c8/5b/0fc85be6e60c77f8694e212d6a9a7e8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-weight: bold;
+
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    background-color: #8d1d0e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_logo {
+    height: 100%;
+    width: 25%;
+    background-color: #8A180D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 180px;
+}
+
+nav {
+    height: 100%;
+    width: 50%;
+    background-color: #E8C219;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    font-family: 'Titan One', cursive;}
+
+ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+li {
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container_pesquisa {
+    height: 100%;
+    width: 25%;
+    background-color: #8d1d0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* main {
+    
+} */
+
+
+.breja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    margin: 2px solid #000;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.box:hover {
+    box-shadow: 5px 5px 5px #000;
+    transform: scale(1.02);
+    transform: translate(-5px, -5px);
+}
+
+.texto1 {
+    font-size: 2em;
+    color: #ff9807;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_cerveja {
+    width: 500px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.img_cerveja:hover {
+    border-radius: 20px 80px 20px 80px;
+}
+
+p {
+    color: #8A180D;
+    text-align: center;
+    font-size: large;
+    
+}

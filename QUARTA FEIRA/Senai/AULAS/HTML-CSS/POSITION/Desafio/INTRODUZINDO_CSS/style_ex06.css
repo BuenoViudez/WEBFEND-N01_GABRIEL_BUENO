@@ -1,0 +1,15 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(51, 74, 61)
+}
+
+h1{
+    color: #e83281;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.destaque {
+    box-shadow: 10px 10px 10px 10px #000000
+}

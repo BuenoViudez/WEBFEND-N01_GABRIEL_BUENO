@@ -1,0 +1,94 @@
+body,
+html
+{
+    background-color: #140d1a  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    height: 0%;
+    width: 0%;
+    display: flex;
+        
+}
+
+.container3 {
+    height: 600px;
+    width: 1000px;
+    margin: auto;
+    /* background-color: #a7a7a4; */
+    display: grid;
+    grid-template-areas: 
+    "caixa1 caixa2 caixa3"
+    "caixa4 caixa5 caixa6"
+    "caixa7 caixa8 caixa9"
+    ;
+        
+}
+
+
+.b1 {
+    height: 100%;
+    width: 100%;
+    background-color: #004853;
+    grid-area: caixa1; 
+}
+
+.b2 {
+    height: 100%;
+    width: 100%;
+    background-color: #f63700;
+    grid-area: caixa2; 
+}
+
+.b3 {
+    height: 100%;
+    width: 100%;
+    background-color: #fb6900;
+    grid-area: caixa3; 
+}
+
+.b4 {
+    height: 100%;
+    width: 100%;
+    background-color: #fb6900;
+    grid-area: caixa4; 
+}
+
+.b5 {
+    height: 100%;
+    width: 100%;
+    background-color: #004853;
+    grid-area: caixa5; 
+}
+
+.b6 {
+    height: 100%;
+    width: 100%;
+    background-color: #f63700;
+    grid-area: caixa6; 
+}
+
+.b7 {
+    height: 100%;
+    width: 100%;
+    background-color: #f63700;
+    grid-area: caixa7; 
+}
+
+.b8 {
+    height: 100%;
+    width: 100%;
+    background-color: #fb6900;
+    grid-area: caixa8; 
+}
+
+.b9 {
+    height: 100%;
+    width: 100%;
+    background-color: #004853;
+    grid-area: caixa9; 
+}

@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.hangman {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.word-to-guess {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.letters span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.message {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.hidden {
+    visibility: hidden;
+}

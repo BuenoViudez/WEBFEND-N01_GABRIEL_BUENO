@@ -1,0 +1,11 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: hwb(30 47% 53% / 0.519);
+}
+
+.bloco {
+    margin-left: 50px;
+    margin-top: 20px;
+
+}

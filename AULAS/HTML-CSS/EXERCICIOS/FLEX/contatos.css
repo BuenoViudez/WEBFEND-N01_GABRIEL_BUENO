@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffffda;
+    background-size: 100%;
+    font-weight: bold;
+
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    background-color: #8d1d0e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_logo {
+    height: 100%;
+    width: 25%;
+    background-color: #8A180D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 180px;
+}
+
+nav {
+    height: 100%;
+    width: 50%;
+    background-color: #E8C219;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    font-family: 'Titan One', cursive;}
+
+ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+li {
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container_pesquisa {
+    height: 100%;
+    width: 25%;
+    background-color: #8d1d0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* main {
+    
+} */
+
+footer img {
+    width: 80px;
+    height: 80px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+}

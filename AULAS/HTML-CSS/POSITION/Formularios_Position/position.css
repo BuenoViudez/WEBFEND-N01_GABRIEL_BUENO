@@ -1,0 +1,37 @@
+body {
+    height: 2000px;
+}
+
+.box_1 {
+    height: 200px;
+    width: 200px;
+    background-color: #ff2a00;
+    
+}
+.box_2 {
+    height: 200px;
+    width: 200px;
+    background-color: #fff700;
+}
+.box_3 {
+    height: 200px;
+    width: 200px;
+    background-color: #000000;
+}
+
+.box_4 {
+    height: 600px;
+    width: 600px;
+    background-color: #aa00ff;
+    margin-left: 300px;
+    position: relative;
+}
+
+.box_5 {
+    height: 300px;
+    width: 300px;
+    background-color: #00ff1a;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

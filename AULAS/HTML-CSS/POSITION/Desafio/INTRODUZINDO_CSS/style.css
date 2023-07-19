@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #000;     
+}
+
+h1 {
+    color: #4309f2;
+    font-size: 3em;
+    font-size: 700;
+    font-family: 'Rubik Pixels', cursive;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 2px 2px 15px #ff1717;   
+}
+
+#titulo{
+    font-size: 5em;
+}
+
+p {
+    color: #ffffff;
+    transform: rotate(15deg);
+}
+
+.texto {
+    color: #17ff26;
+    font-size: 5em;
+    
+}
+
+#logo {
+    margin:  30px; /* Adiciona margem igual para todos os lados*/
+    margin: 100px 80px 70px 40px; /* Adiciona margem especifica para cada lado iniciando por cima. e indo sentido horario*/
+    margin: 100px 50px;/* O primeiro valor vai adicionar o valor atribuido na vertical e o segundo valor na horizontal*/
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin: 0px;
+
+    width: 50%;
+}
